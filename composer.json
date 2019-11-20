@@ -1,0 +1,21 @@
+{
+    "name": "maxsky/swoft-app-key-generator",
+    "description": "Set the application key in Swoft 2.x Framework.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Max Sky",
+            "email": "max940213@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MaxSky\\Console\\": "src/"
+        }
+    }
+}
